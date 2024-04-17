@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab09</title>
+</head>
+<body>
+    <form method="get" action="">
+        <label for="Student_name"> Student name :* </label>
+        <input type="text" name="Std_name" id="Student_name" value="" placeholder="Student name" required autofocus autocomplete="off">
+        <br>
+        <br>
+        <label for="Std_email"> Student Email: </label>
+        <input type="email" name="Std_email" id="Std_email" value="@gmail.com" required>
+        <br>
+<br>
+        <label for="reg_number" > Registration number :* </label>
+        <input type="number" name="reg_number" id="reg_number" value="" placeholder=" Registration number" min="0" max="10">
+        <br>
+        <br>
+        <label for="contact_number"> Contact number :* </label>
+        <input type="tel" name="contact_number" id="contact_number" value="+880" placeholder="Mobile Number" required>
+        <br>
+        <br>
+        <label for="date_of_birth"> Date of Birth :* </label>
+        <input type="date" name="date_of_birth" id="date_of_birth" value="" required>
+        <br>
+        <br>
+        <label for="Password"> Password :* </label>
+        <input type="password" name="Password" id="Password" value="" placeholder="Password" required minlength="6" maxlength="10">
+        <br><br>
+        <input type="text" name="common code"  value="2024" readonly hidden>
+        <br> <br>
+
+        <label>Type your FB Link :*</label>
+        <input type="url" required name="Fb_url" placeholder="FB Profile link">
+        <br><br>
+
+        <label>Upload Your photo</label>
+        <input type="file" name="photo" required multiple>
+        <br><br>
+
+
+
+
+        <input type="submit" value="Submit Registration">
+    </form>
+</body>
+</html>
