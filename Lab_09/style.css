@@ -1,0 +1,14 @@
+fieldset{
+    background-color: azure;
+}
+
+legend{
+    text-align: center;
+}
+
+h2{
+    color: rgba(13, 37, 58, 0.589);
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bolder;
+}

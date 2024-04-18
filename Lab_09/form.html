@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lab09</title>
+</head>
+<body>
+    <fieldset>
+        <legend><h2>Student Registration Form</h2></legend><br>
+    <form method="get" action="">
+        <label for="Student_name"> Student Name :* </label>
+        <input type="text" name="Std_name" id="Student_name" value="" placeholder="Student name" required autofocus autocomplete="off">
+        <br>
+        <br>
+        <label for="Gender">Gender</label>
+        <select name="Gender" required>
+            <option value="Select">Select</option>
+            <option value="Male">Male</option>
+            <option value="female">female</option>
+
+        </select><br><br>
+
+        <label>Choose Shift:</label>
+        <label>Morning</label>
+        <input type="radio" name="choose_shift" value="Morning" required>
+        <label>Day</label>
+        <input type="radio" name="choose_shift" value="Day" required><br><br>
+
+        <label>Choose Your Course Type:</label>
+        <select required>
+            <option value="select">Select</option>
+            <option value="online">Online</option>
+            <option value="Offline">Offline</option>
+        </select><br><br>
+        <label>Select Course :</label>
+        <label>: Web development :</label>
+        <input type="radio" name="Select_Course" value="Web development" required>
+        <label>: Digital Marketing </label>
+        <input type="radio" name="Select_Course" value="Digital_Marketing" required>
+        <label>: Graphics Design </label>
+        <input type="radio" name="Select_Course" value="Graphics_Design" required><br><br>
+        
+
+
+
+        <label for="Std_email"> Student Email:* </label>
+        <input type="email" name="Std_email" id="Std_email" value="@gmail.com" required>
+        <br>
+<br>
+        <label for="reg_number" > Registration number :* </label>
+        <input type="number" name="reg_number" id="reg_number" value="" placeholder=" Registration number" min="0" max="10">
+        <br>
+        <br>
+        <label for="contact_number"> Contact number :* </label>
+        <input type="tel" name="contact_number" id="contact_number" value="+880" placeholder="Mobile Number" required>
+        <br>
+        <br>
+        <label for="date_of_birth"> Date of Birth :* </label>
+        <input type="date" name="date_of_birth" id="date_of_birth" value="" required>
+        <br>
+        <br>
+        <label for="Password"> Password :* </label>
+        <input type="password" name="Password" id="Password" value="" placeholder="Password" required minlength="6" maxlength="10">
+        <br><br>
+        <input type="text" name="common code"  value="2024" readonly hidden>
+        <br> <br>
+
+        <label>Type your FB Link :*</label>
+        <input type="url" required name="Fb_url" placeholder="FB Profile link">
+        <br><br>
+
+        <label>Upload Your photo</label>
+        <input type="file" name="photo" required multiple>
+        <br><br><hr>
+
+        <textarea name="Address" placeholder="Your Address"></textarea><br><br>
+
+
+
+
+        <input type="submit" value="Submit Registration"><br>
+        <br>
+        <input type="reset" value="Clear information"><br>
+    </form>
+</fieldset>
+</body>
+</html>
